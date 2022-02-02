@@ -18,7 +18,9 @@ const Card = ({
           <h4>
             <ImLocation2 color='red' /> {location}
           </h4>
-          <a href={googleMapsUrl}>View on Google Maps</a>
+          <a href={googleMapsUrl} target='_blank'>
+            View on Google Maps
+          </a>
         </div>
         <h1>{title}</h1>
         <h4>

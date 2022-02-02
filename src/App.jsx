@@ -6,9 +6,11 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      {data.map((item) => (
-        <Card key={item.id} {...item} />
-      ))}
+      <div className='container'>
+        {data.map((item) => (
+          <Card key={item.id} {...item} />
+        ))}
+      </div>
     </div>
   )
 }
