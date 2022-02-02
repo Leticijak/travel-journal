@@ -15,6 +15,7 @@ code {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  padding: 40px 0;
 }
 .navig {
   background-color: darkmagenta;
@@ -30,6 +31,7 @@ code {
   display: flex;
   gap: 10%;
   padding: 40px 20px;
+  border-bottom: 1px solid rgba(55, 55, 55, 0.1);
 }
 .card-wrap img {
   border-radius: 20px;
@@ -66,4 +68,15 @@ code {
 }
 p {
   color: #2b283a;
+}
+@media (max-width: 660px) {
+  .card-wrap {
+    flex-wrap: wrap;
+    gap: 0;
+    border-bottom: 1px solid rgba(55, 55, 55, 0.1);
+  }
+  .card-wrap img {
+    border-radius: 20px;
+    margin-left: 2em;
+  }
 }
