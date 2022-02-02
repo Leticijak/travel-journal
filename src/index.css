@@ -28,6 +28,7 @@ code {
 }
 .card-wrap {
   display: flex;
+  gap: 10%;
   padding: 40px 20px;
 }
 .card-wrap img {

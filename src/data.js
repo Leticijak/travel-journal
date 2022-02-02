@@ -26,7 +26,7 @@ export default [
   {
     id: 4,
     title: "Barcelona",
-    location: "SPAIN",
+    location: "CATALUNYA",
     googleMapsUrl: "https://goo.gl/maps/YL58vRqusGacFVVq6",
     startDate: "12 Jan, 2014",
     endDate: "9 Jan, 2015",
